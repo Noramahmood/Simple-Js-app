@@ -1,39 +1,39 @@
-.item-text{
-    background-color: #fff;
-    width: 80%;
-    position: absolute;
-    bottom: 30px;
-    left: 10%;
-    text-align: center;
-    padding: 7px;
+.item-text {
+  background-color: burlywood;
+  width: 80%;
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  text-align: center;
+  padding: 7px;
 }
-body{
-    font-family: 'Segoe Ui light';
+body {
+  font-family: "Segoe Ui light";
 }
-.item{
-    cursor: pointer;
+.item {
+  cursor: pointer;
 }
-#light-box-container{
-   background-color:rgba(0, 0,0, .4); 
-   left: 0;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   z-index: 10000;
-   position: fixed;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+#light-box-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#light-box-item{
-    background-image: url('../images/portfolio-1.jpg');
-    width: 45%;
-    height: 500px;
-    background-position: center center;
-    background-size: 100% 100%;
-
-}#light-box-item i{
-    font-size: 18px;
-    margin: 5px;
-    cursor: pointer;
+#light-box-item {
+  background-image: url("../images/portfolio-1.jpg");
+  width: 45%;
+  height: 500px;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+#light-box-item i {
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
 }
